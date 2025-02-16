@@ -1,5 +1,5 @@
-### AWS EC2 Instance and Security Group 3 Tier Architecture with Terraform
-This project utilized terraform modules to provision resources in two availability zones i.e. `VPC`, `NAT`, `Multiple EC2 Instance`, `Security Groups`, `Public` and `Private Subnets`
+### AWS-Application loadbalancer 3 Tier Architecture with Terraform
+This project utilized terraform modules to provision resources in two availability zones i.e. `VPC`,`ALB`, `NAT`, `Multiple EC2 Instances`, `Security Groups`, `Public` and `Private Subnets`
 #### Terraform Execution Commands
 - Terraform Initialize `terraform init`
 - Observation: Initialized Local Backend, Downloaded the provider plugins (initialized plugins) and Review the folder structure `.terraform folder`
