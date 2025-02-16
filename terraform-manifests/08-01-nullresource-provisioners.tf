@@ -30,8 +30,7 @@ resource "null_resource" "name" {
     working_dir = "local-exec-output-files/"
     #on_failure = continue
   }
-
-
+  
 }
 
 # Creation Time Provisioners - By default they are created during resource creations (terraform apply)
